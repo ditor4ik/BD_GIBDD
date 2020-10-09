@@ -16,7 +16,7 @@ namespace BD_GIBDD.Models
         public DateTime DateSheetNumber { get; set; }
         public DateTime DateOfIssue { get; set; }
         public DateTime DateOfRegistration { get; set; }
-        public Color COLOR { get; set; }
+        public String COLOR { get; set; }
         public string TechInspection { get; set; }
         public DateTime DateTechInspection { get; set; }
         public string Description { get; set; }
